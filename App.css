@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--Very-Dark-Blue, #131518);
+}
+
+.container {
+  width: 327px;
+  height: 360px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+  margin: 0 auto;
+  margin-top: 154px
+}
+.star {
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  flex-shrink: 0;background-color: #262E38;
+  border-radius: 50%;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 263px;
+}
+
+
+
+.header-h1{
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: var(--Pure-White, #FFF);
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 279px;
+}
+
+
+.header-p{
+  margin-top: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: var(--Light-Grey, #969FAD);
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.rating{
+  display: flex;
+  margin-left: 24px;
+  gap: 17px;
+}
+
+.rating span{
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 24px;
+  background-color: var(--Dark-Blue, #262E38);; 
+  width: 42px;
+  height: 42px;
+}
+
+.rating span p{
+  margin-top: 9px;
+  color: var(--Medium-Gray, #7C8798);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.175px;
+}
+
+
+button {
+  margin-left: 24px;
+  margin-top: 24px;
+  border: 0px;
+  border-radius: 22.5px;
+  background: var(--Orange, #FC7614);
+  width: 279px;
+  height: 45px;
+  flex-shrink: 0;
+  color: var(--Pure-White, #FFF);
+}
+a{
+  text-decoration: none;
+}
+button a {
+  color: var(--Pure-White, #FFF);
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.867px;
+}
+
+.rating span:hover{
+  background-color: #FC7614;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #FC7614;
+  
+
+}
+
+@media only screen and (min-width: 720px){
+    .container{
+      width: 412px;
+      height: 416px;
+      border-radius: 30px;
+    }
+
+    .star {
+      width: 48px;
+      height: 48px;
+      margin-top: 32px;
+      margin-left: 32px;
+      margin-right: 332px;
+    }
+
+    .header-h1{
+      margin-left: 32px;
+      width: 199px;
+      margin-top: 30px;
+
+    }
+    .header-p{
+      margin-left: 32px;
+      width: 340px;
+    }
+
+    .rating {
+      margin-left: 32px;
+      width: 341px;
+      gap: 22px;
+    }
+    .rating span{
+      width: 51px;
+      height: 51px;
+    }
+
+
+    .rating span p{
+      margin-top: 15px;
+
+    }
+    
+    button{
+      margin-left: 32px;
+      width: 341px;
+    }
+
+}
+
+
+
+/* ################################################################################ */
+
+
+.ilustration {
+  width: 144px;
+  height: 96px;
+  margin-left: 92px;
+  margin-top: 34px;
+
+}
+
+.h2-text{
+  margin-top: 29px;
+  border-radius: 22.5px;
+  background: var(--Dark-Blue, #262E38);
+  padding: 5px 12px;
+  margin-left: 80px;
+  margin-right: 79px;
+  color: var(--Orange, #FC7614);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.thank-you{
+  margin-top: 24px;
+  color: var(--Pure-White, #FFF);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 279px;
+  margin-left: 24px;
+}
+.p-text{
+  color: var(--Light-Grey, #969FAD);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  width: 279px;
+  margin-left: 24px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 720px){
+  .container{
+    width: 412px;
+    height: 416px;
+    flex-shrink: 0;
+  }
+
+  .ilustration{
+    width: 162px;
+    height: 108px;
+    flex-shrink: 0;
+    margin-left: 121px;
+  }
+
+  .h2-text{
+    width: 193px;
+    height: 32px;
+    flex-shrink: 0;
+    font-size: 15px;
+    margin-left: 110px;
+  }
+  .thank-you{
+    width: 143px;
+    margin-left: 135px;
+    margin-top: 36px;
+    font-size: 28px;
+  }
+  .p-text{
+    font-size: 15px;
+    width: 340px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-left: 32px;
+  }
+}
+
